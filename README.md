@@ -73,3 +73,9 @@ uninstall.commandをダブルクリックして実行。
 現在pyenvの管理下でインストールされているPythonバージョンが全てアンインストールされます。
 また、install.commandでインストールされた pyenv、xz、python-tk@3.11、python-tk@3.12、Homebrew及びzprofileに入力された環境設定が全て削除されます。
 削除前のzprofileは.zprofile.bakとしてHomeディレクトリへ残されます。
+
+## Author
+[Nao Yamanouchi](https://github.com/ClairdelunaEve)
+
+## Licence
+3-Clause BSD
