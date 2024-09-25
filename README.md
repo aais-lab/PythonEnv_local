@@ -30,13 +30,13 @@
 ## Usage
 #### gitからクローン
 ```
-git clone https://github.com/aais-lab/developEnv_Student.git
+git clone https://github.com/aais-lab/PythonEnv_local.git
 ```
 
 #### インストール
 以下のコマンドを実行し、実行権限を付与してください。
 ```
-xattr -d com.apple.quarantine ./developEnv_Student/install.command
+xattr -d com.apple.quarantine ./PythonEnv_local/install.command
 ```
 
 install.commandをダブルクリックして実行。
@@ -46,7 +46,7 @@ install.commandをダブルクリックして実行。
 #### 環境チェック
 install.command実行前の場合、以下のコマンドを実行してください。
 ```
-xattr -d com.apple.quarantine ./developEnv_Student/install.command
+xattr -d com.apple.quarantine ./PythonEnv_local/check.command
 ```
 
 check.commandをダブルクリックして実行。
