@@ -30,8 +30,7 @@ function install_python(){
         check_fileExists requirements.txt
         if [ $? -eq 10 ]; then
             pip install -r requirements.txt
-            git clone https://github.com/aais-lab/IntroductionPrograming-library.git --depth 1
-            pip install IntroductionPrograming-library/.
+            pip install citam_pydraw
         fi
     fi
 }
