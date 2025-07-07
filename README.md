@@ -1,4 +1,4 @@
-# developEnv_Student
+# PythonEnv_local
 ## Overview
 千葉工業大学 先進工学部 知能メディア工学科の第2セメスター講義「プログラミング言語基礎」及び第3セメスター講義「知能メディアプロジェクト1」、第4セメスター講義「プログラミング言語応用」「知能メディアプロジェクト2」、第5セメスター講義「マルチエージェントシステム」を受講する学部生向けの、Python環境導入スクリプト群です。環境構築の際の手順飛ばしや、打ち間違い等によるミスが多いため、統一的な環境を簡便に作成できるようにすることを目的として作成されました。
 
@@ -30,13 +30,13 @@
 ## Usage
 #### gitからクローン
 ```
-git clone https://github.com/aais-lab/developEnv_Student.git
+git clone https://github.com/aais-lab/PythonEnv_local.git
 ```
 
 #### インストール
 以下のコマンドを実行し、実行権限を付与してください。
 ```
-xattr -d com.apple.quarantine ./developEnv_Student/install.command
+xattr -d com.apple.quarantine ./PythonEnv_local/install.command
 ```
 
 install.commandをダブルクリックして実行。
@@ -46,7 +46,7 @@ install.commandをダブルクリックして実行。
 #### 環境チェック
 install.command実行前の場合、以下のコマンドを実行してください。
 ```
-xattr -d com.apple.quarantine ./developEnv_Student/install.command
+xattr -d com.apple.quarantine ./PythonEnv_local/check.command
 ```
 
 check.commandをダブルクリックして実行。
