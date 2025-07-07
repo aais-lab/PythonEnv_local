@@ -22,8 +22,8 @@
 - setting.confで設定したバージョンのPython
     - pip及びsetuptoolsは自動的にアップデートされます
     - requirements.txtに記載したライブラリが自動的に導入されます
-    - 講義用の描画ライブラリIPが導入されます
-        - [aais-lab IntroductionPrograming-library](https://github.com/aais-lab/IntroductionPrograming-library)
+    - 講義用の描画ライブラリが導入されます
+        - [aais-lab citam_pydraw](https://github.com/aais-lab/citam_pydraw)
 - zprofileへの記載
     - Homebrew及びpyenvへのパスを通すために必要な記述が自動で入力されます
 
