@@ -45,8 +45,12 @@ if [ $? -eq 10 ]; then
     command="python --version"
     echo "Used:"
     eval $command | printf "  %s %s\n" `cat`
+    echo "Lib:"
+    eval pip list | grep citam | printf " %s %s\n" `cat`
 else
     command="python3 --version"
     echo "Used:"
     eval $command | printf "  %s %s\n" `cat`
+    echo "Lib:"
+    eval pip list | grep citam | printf " %s %s\n" `cat`
 fi
